@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+    </style>
+  <center><h1>Favourite Cities</h1></center>
+</head>
+<body style="background-color: darkorange;">
+
+<div class="row">
+    <div class="column">
+        <h2>Bangalore</h2>
+        <img src="bangalore.jpeg" alt="Bangalore Image">
+        <p>
+            A vibrant and tech-savvy city in India known for its pleasant climate, green spaces, and thriving IT industry.
+            <br>Good places to Visit:
+            <ul>
+                <li>Cubbon Park</li>
+                <li>Wonderla Amusement Park</li>
+                <li>Lalbagh Botanical Garden</li>
+            </ul>
+        </p>
+        <button>More Details</button>
+    </div>
+
+    <div class="column">
+        <h2>Hyderabad</h2>
+        <img src="download.jpeg" alt="Hyderabad Image">
+        <p>
+            The historic city "city of pearls" with a rich tradition and modernity,famous for its cuisine and culture heritage.
+            <br>good places to Visit:
+            <ul>
+                <li>charminar</li>
+                <li>golconda fort</li>
+                <li>ramoji film city</li>
+            </ul>
+        </p>
+        <button>More Details</button>
+    </div>
+
+<div class="column">
+        <h2>Mumbai</h2>
+        <img src="mumbai.jpeg" alt="Mumbai Image">
+        <p>the bustling financial capital of india,mumbai and iconic landmarks.
+            <br>good places to Visit:
+            <ul>
+                <li>gateway of india </li>
+                <li>marine drive</li>
+                <li>elephanta caves</li>
+            </ul>
+        </p>
+        <button>More Details</button>
+    </div>
+</div>
+</body>
+</html>
